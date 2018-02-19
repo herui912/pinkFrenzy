@@ -1,0 +1,14 @@
+.dashboard{
+    background-image: url("https://gpic.qpic.cn/gbar_pic/7Tl8XB8mToGT2ia5Ejv814X9N0w5xNHDRfzPjUyvoQMVjW1NXNETeHw/0");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+}
+.dashboard-content{
+    position: relative;
+    top: 40%;
+}
+.dashboard-bcg{
+    opacity: 0.5;
+}

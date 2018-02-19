@@ -1,0 +1,15 @@
+<div class="food-bcg">
+  <div class="container" *ngFor="let food of foods">
+    <div class="row featurette">
+      <div class="food-text col-md-7 {{food.isEven ? 'order-md-2': ''}}">
+        <h2 class="featurette-heading"> {{food.title}} <span class="text-muted">{{food.subTitle}} </span></h2>
+        <p class="lead"> {{food.description}} </p>
+      </div>
+      <div class="col-md-5 {{food.isEven ? 'order-md-1': ''}}">
+          <img class="rounded featurette-image img-fluid mx-auto" alt="500x300" style="width: 500px; height: 300px;" src={{food.imgUrl}}>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+  </div>
+</div>

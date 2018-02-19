@@ -1,0 +1,12 @@
+<div class="fun-bcg">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-4 text-center" *ngFor="let fun of funs">
+            <img class="rounded-circle" src={{fun.imgIcon}} alt="Generic placeholder image" width="140" height="140">
+            <h3>{{fun.header}}</h3>
+            <p> {{fun.description}}</p>
+            <p><a class="btn btn-secondary" href={{fun.detailUrl}} role="button">View details »</a></p>
+          </div>
+        </div>
+  </div>
+</div>
